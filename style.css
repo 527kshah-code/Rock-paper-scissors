@@ -1,0 +1,68 @@
+body {
+      background-color: #0B0E14;
+      color: #E6E8EC;
+    }
+
+h1 {
+      color: #7B5CFF;
+    }
+
+.text-muted-custom {
+      color: #9AA4B2;
+    }
+
+.card-custom {
+      background-color: #121826;
+      border: 2px solid #2A2F45;
+      border-radius: 15px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+.card-custom:hover {
+      border-color: #428cec;
+    }
+
+.card-selected {
+      border-color: #2F80ED;
+      box-shadow: 0 0 12px rgba(47, 128, 237, 0.6);
+    }
+
+.sukuna {
+      border-color: #a3121b;
+      color: #C1121F;
+      box-shadow: 0 0 12px rgba(124, 3, 11, 0.6);
+    }
+
+.vs {
+      color: #64ee86;
+      font-size: 1.5rem;
+    }
+
+.choice-btn {
+      font-size: 2rem;
+      padding: 15px;
+      border-radius: 15px;
+      width: 80px;
+      height: 80px;
+    }
+
+.rock {
+      background-color: #3A3A3A;
+      color: white;
+    }
+
+.paper {
+      background-color: #E6E8EC;
+      color: #121826;
+    }
+
+.scissors {
+      background-color: #1F3D2B;
+      color: white;
+    }
+
+footer {
+      background-color: #121826;
+      color: #9AA4B2;
+    }
