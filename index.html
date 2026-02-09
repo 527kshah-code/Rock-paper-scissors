@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Title</title>
+        <title>R-P-S game</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -16,6 +16,7 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
+            <link rel="stylesheet" href="style.css" />
     </head>
 
     <body>
@@ -69,6 +70,18 @@
                     <button class="btn choice-btn scissors">✂️</button>
                 </div>
              </section>
+             <!--game choices pt.3-->
+             <span id="player-name">Player</span>
+            <span id="sukuna-name">Sukuna</span>
+
+            <p id="round-text">Round 1 of 5</p>
+            <p id="result-text">Make your move</p>
+            <p id="score-text">0 : 0</p>
+
+            <button class="choice-btn rock" data-choice="rock">🪨</button>
+            <button class="choice-btn paper" data-choice="paper">📄</button>
+            <button class="choice-btn scissors" data-choice="scissors">✂️</button>
+
         </main>
         <footer class="text-center">
             <p>| © 2026 Rock Paper Scissors Game • Kavya Shah • Web 2 |</p>
