@@ -10,6 +10,7 @@ function setPlayerCharacter(character) {
     playerCharacter = name;
     document.getElementById("player-name").textContent = name;
     gameActive = true;
+    setPlayerCharacter(selectedCharacter);
   }
 
   function getComputerChoice() {
